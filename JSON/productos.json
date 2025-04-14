@@ -1,0 +1,447 @@
+[    
+    {
+    "id":1,
+    "seccion": "remeras",
+    "categoria" : "remera",
+    "descripcion": "T-shirt BillaBong 1997.",
+    "talla": ["S", "M", "L"],
+    "color": ["Amarillo"],
+    "busqueda":["remera","reme","remeras", "shirt", "tshirt"],
+   "precio": [25],
+    "imagen": "../../IMAGENES/remeras/billabong_amarilla.jpg",
+    "nuevaTemporada": true
+    },
+{
+    "id":2,
+    "seccion": "remeras",
+    "categoria" : "remera",
+    "descripcion": "T-shirt BillaBong 1995.",
+    "talla": ["S", "M", "L"],
+    "color": ["Gris"],
+    "busqueda":["remera","reme","remeras", "shirt", "tshirt"],
+    "precio": [30],
+    "imagen": "../../IMAGENES/remeras/billabong.jpg",
+    "nuevaTemporada" : false
+       },
+{
+    "id":3,
+   "seccion": "remeras",
+    "categoria" : "remera",
+   "descripcion": "T-shirt BillaBong 1990.",
+   "talla": ["S",  "L"],
+   "color": ["Blanco", "Gris"],
+   "busqueda":["remera","reme","remeras", "shirt", "tshirt"],
+   "precio": [35],
+   "imagen": "../../IMAGENES/remeras/billabongBlancaxgris.jpg",
+   "nuevaTemporada": true
+   },
+   {
+     "id":4,
+    "seccion": "remeras",
+    "categoria" : "remera",
+    "descripcion": "T-shirt BillaBong Piranha 1997.",
+    "talla": ["M"],
+    "color": ["Negro"],
+    "busqueda":["remera","reme","remeras", "shirt", "tshirt"],
+    "precio": [40],
+    "imagen": "../../IMAGENES/remeras/billabongPirañas.jpg",
+    "nuevaTemporada" : false
+   },
+   {
+    "id":5,
+    "seccion": "remeras",
+    "categoria" : "remera",
+    "descripcion": "T-shirt Quik Silver 1999.",
+    "talla": [ "L"],
+    "color": ["Gris"],
+    "busqueda":["remera","reme","remeras", "shirt", "tshirt"],
+    "precio": [25],
+    "imagen": "../../IMAGENES/remeras/quikSilver.jpg",
+    "nuevaTemporada": true
+   },
+
+   {
+    "id":6,
+    "seccion": "remeras",
+    "categoria" : "musculosa",
+    "descripcion": "Tank top Quik Silver.",
+    "talla": ["S", "M", "L"],
+    "color": ["Blanco"],
+    "busqueda":["remera","reme","remeras", "shirt", "tshirt","musculosa"],
+    "precio": [30],
+    "imagen": "../../IMAGENES/remeras/quikSmusculosa.jpg",
+    "nuevaTemporada" : false
+   },
+  
+   {
+    "id":7,
+    "seccion": "remeras",
+    "categoria" : "remera",
+    "descripcion": "T-shirt Coral Dust",
+    "talla": ["S", "M", "L"],
+    "color": ["Blanco"],
+    "busqueda":["remera","reme","remeras", "shirt", "tshirt"],
+    "precio": [30],
+    "imagen": "../../IMAGENES/remeras/remeraBlancaxcremita.jpg",
+    "nuevaTemporada": true
+   },
+   {
+    "id":8,
+    "seccion": "remeras",
+    "categoria" : "remera",
+    "descripcion": "T-shirt Wax Junkies.",
+    "talla": [ "M"],
+    "color": ["Negro"],
+    "busqueda":["remera","reme","remeras", "shirt", "tshirt"],
+    "precio": [25],
+   "imagen": "../../IMAGENES/remeras/remeraNegra.jpg",
+   "nuevaTemporada": true
+   },   
+   {
+    "id":9,
+    "seccion": "remeras",
+    "categoria" : "remera",
+    "descripcion": "T-shirt Rip Curl 1994.",
+    "talla": [ "L"],
+    "color": ["Celeste"],
+    "busqueda":["remera","reme","remeras", "shirt", "tshirt"],
+    "precio": [25],
+   "imagen": "../../IMAGENES/remeras/ripCurlCeleste.jpg",
+   "nuevaTemporada": true
+   },   
+
+   {
+    "id":10,
+    "seccion": "remeras",
+    "categoria" : "remera",
+    "descripcion": "T-shirt Rip Curl 1998.",
+    "talla": [ "S"],
+    "color": ["Gris"],
+    "busqueda":["remera","reme","remeras", "shirt", "tshirt"],
+    "precio": [25],
+   "imagen": "../../IMAGENES/remeras/ripcurlGris.jpg",
+   "nuevaTemporada": true
+   },
+   {
+    "id":11,
+    "seccion": "remeras",
+    "categoria" : "remera",
+    "descripcion": "T-shirt Sharks",
+    "talla": [ "L"],
+    "color": ["Blanco"],
+    "busqueda":["remera","reme","remeras", "shirt", "tshirt"],
+    "precio": [25],
+   "imagen": "../../IMAGENES/remeras/sharksBlanca.jpg",
+   "nuevaTemporada": false
+   },
+
+   {
+    "id":12,
+    "seccion": "jeans",
+    "categoria" : "Bermuda",
+    "descripcion": "Bermuda Cargo 303.",
+    "talla": ["S", "M", "L"],
+    "color": ["Negro"],
+    "busqueda":["pantalon","bermudas", "bermuda" ],
+    "precio": [40],
+    "imagen": "../../IMAGENES/pantalones/bermudaCargoNegra.jpg",
+    "nuevaTemporada" : true
+},
+
+{
+    "id":13,
+    "seccion": "jeans",
+    "categoria" : "Bermuda",
+    "descripcion": "Bermuda Black Current.",
+    "talla": ["S",  "L"],
+    "color": ["Gris"],
+    "busqueda":["pantalon","bermudas", "bermuda" ],
+    "precio": [35],
+    "imagen": "../../IMAGENES/pantalones/bermudagris.jpg", 
+    "nuevaTemporada" : false
+},
+{
+    "id":14,
+    "seccion": "jeans",
+    "categoria" : "Bermuda",
+    "descripcion": "Bermuda No Shore.",
+    "talla": ["M"],
+    "color": ["Azul"],
+    "busqueda":["pantalon","bermudas", "bermuda" ],
+    "precio": [60],
+    "imagen": "../../IMAGENES/pantalones/bermudaJean.jpg",
+    "nuevaTemporada": true
+},
+{
+    "id":15,
+   "seccion": "jeans",
+    "categoria" : "Bermuda",
+    "descripcion": "Bermuda Quik Silver 1995.",
+    "talla": ["S", "M", "L"],
+    "color": ["Celeste"],
+    "busqueda":["pantalon","bermudas", "bermuda" ],
+    "precio": [44],
+    "imagen": "../../IMAGENES/pantalones/bermudaQuikceleste.jpg",
+    "nuevaTemporada" : false
+},
+{
+    "id":16,
+    "seccion": "jeans",
+    "categoria" : "Bermuda",
+    "descripcion": "Bermuda Quik Silver 2000.",
+    "talla": ["S", "M", "L"],
+    "color": ["Crema"],
+    "busqueda":["pantalon","bermudas", "bermuda" ],
+    "precio": [50],
+    "imagen": "../../IMAGENES/pantalones/BermuQuikcrema.jpg",
+    "nuevaTemporada" : false
+},
+{   
+    "id":17,
+   "seccion": "jeans",
+    "categoria" : "Jean",
+    "descripcion": "Jean 101.",
+    "talla": [ "L"],
+    "color": ["Azul"],
+    "busqueda":["pantalon","jeans", "jean" ],
+    "precio": [25],
+    "imagen": "../../IMAGENES/pantalones/jeanBuggy.jpg",
+    "nuevaTemporada": true
+},
+{   "id":18,
+    "seccion": "jeans",
+    "categoria" : "Jean",
+    "descripcion": "Jean 87.",
+    "talla": ["S", "M", "L"],
+    "color": ["Negro"],
+    "busqueda":["pantalon","jeans", "jean" ],
+    "precio": [70],
+    "imagen": "../../IMAGENES/pantalones/jeanCargoNegro.jpg",
+    "nuevaTemporada" : false
+},
+{
+    "id":19,
+    "seccion": "jeans",
+    "categoria" : "Jean",
+    "descripcion": "Jean 99.",
+    "talla": ["S", "M", "L"],
+    "color": ["Negro"],
+    "busqueda":["pantalon","jeans", "jean" ],
+    "precio": [30],
+    "imagen": "../../IMAGENES/pantalones/jeanNegro.jpg",
+    "nuevaTemporada" : false
+},
+{
+    "id":20,
+   "seccion": "jeans",
+    "categoria" : "Jean",
+    "descripcion": "Jean 405",
+    "talla": [ "L"],
+    "color": ["Gris"],
+    "busqueda":["pantalon","jeans", "jean" ],
+    "precio": [25],
+    "imagen": "../../IMAGENES/pantalones/jeanRectoGris.jpg",
+    "nuevaTemporada": true
+},   
+
+{
+    "id":21,
+    "seccion": "hoodies",
+    "categoria" : "buzo",
+    "descripcion": "Hoodie Eme.",
+    "talla": ["S", "M", "L"],
+    "color": ["Verde"],
+    "busqueda":["buzo","buzos", "hoodie","hoodies" ],
+    "precio": [50],
+    "imagen": "../../IMAGENES/buzos/buzoemeverde.jpg",
+    "nuevaTemporada" : false
+},
+
+{
+    "id":22,
+    "seccion": "hoodies",
+    "categoria" : "buzo",
+    "descripcion": "Figures 2000.",
+    "talla": ["M"],
+    "color": ["Negro"],
+    "busqueda":["buzo","buzos", "hoodie","hoodies" ],
+    "precio": [40],
+    "imagen": "../../IMAGENES/buzos/buzoFiguresNegro.jpg",
+    "nuevaTemporada" : false
+},
+{
+    "id":23,
+    "seccion": "hoodies",
+    "categoria" : "buzo",
+    "descripcion": "Hoodie 1995.",
+    "talla": ["S", "M", "L"],
+    "color": ["Negro"],
+    "busqueda":["buzo","buzos", "hoodie","hoodies" ],
+    "precio": [30],
+    "imagen": "../../IMAGENES/buzos/buzoNegro.jpg",
+    "nuevaTemporada": true
+},
+{
+    "id":24,
+    "seccion": "hoodies",
+    "categoria" : "buzo",
+    "descripcion": "Scuffer 110.",
+    "talla": ["S", "M", "L"],
+    "color": ["Blanco"],
+    "busqueda":["buzo","buzos", "hoodie","hoodies" ],
+    "precio": [30],
+    "imagen": "../../IMAGENES/buzos/buzoScufferBlanco.jpg",
+    "nuevaTemporada" : false
+},
+{
+    "id":25,
+    "seccion": "hoodies",
+    "categoria" : "buzo",
+    "descripcion": "Scuffer With Love.",
+    "talla": [ "L"],
+    "color": ["Negro"],
+    "busqueda":["buzo","buzos", "hoodie","hoodies" ],
+    "precio": [44],
+    "imagen": "../../IMAGENES/buzos/buzoScufferWithLoveNegro.jpg",
+    "nuevaTemporada": true
+},
+{
+    "id":26,
+   "seccion": "hoodies",
+    "categoria" : "campera",
+    "descripcion": "Jacket 86.",
+    "talla": ["S", "M", "L"],
+    "color": ["Azul"],
+    "busqueda":["campera","camperas", "jacket","jackets" ],
+    "precio": [90],
+    "imagen": "../../IMAGENES/buzos/camperaCorderoy.jpg",
+    "nuevaTemporada": true
+},
+{
+    "id":27,
+    "seccion": "hoodies",
+    "categoria" : "campera",
+    "descripcion": "Jacket 97.",
+    "talla": ["S", "M", "L"],
+    "color": ["Negro"],
+    "busqueda":["campera","camperas", "jacket","jackets" ],
+    "precio": [100],
+    "imagen": "../../IMAGENES/buzos/camperaJean.jpg",
+    "nuevaTemporada": true
+},
+{
+    "id":28,
+    "seccion": "hoodies",
+    "categoria" : "campera",
+    "descripcion": "Jacket 505.",
+    "talla": [ "L"],
+    "color": ["Verde"],
+    "busqueda":["campera","camperas", "jacket","jackets" ],
+    "precio": [25],
+    "imagen": "../../IMAGENES/buzos/camperaVerde.jpg",
+    "nuevaTemporada": true
+},   
+
+{
+    "id":29,
+    "seccion": "accesorios",
+    "categoria": "Billetera",
+    "descripcion": "Wallet Rip Curl.",
+    "talla": [null],
+    "color": ["Negro"],
+    "busqueda":["biletera","billeteras","wallet","wallets" ],
+    "precio": [10],
+    "imagen": "../../IMAGENES/accesorios/billeteraRip.jpg",
+    "nuevaTemporada" : true
+},
+{    
+    "id":30,
+   "seccion": "accesorios",
+   "categoria": "gorra",
+   "descripcion": "Surf Locos.",
+   "talla": ["S", "M", "L"],
+   "color": ["Verde"],
+   "busqueda":["gorra","gorras", "cap","caps" ],
+   "precio": [20],
+   "imagen": "../../IMAGENES/accesorios/gorra.jpg",
+   "nuevaTemporada" : false
+},
+{
+    "id":31,
+    "seccion": "accesorios",
+    "categoria": "gorra",
+    "descripcion": "Los Angeles Cap.",
+    "talla": ["M"],
+    "color": ["Verde"],
+    "busqueda":["gorra","gorras", "cap","caps" ],
+    "precio": [40],
+    "imagen": "../../IMAGENES/accesorios/gorraLA0.jpg" ,
+    "nuevaTemporada": false
+},
+{
+    
+    "id":32,
+    "seccion": "accesorios",
+    "categoria": "gorra",
+    "descripcion": "Malboro Cap.",
+    "talla": ["S", "M", "L"],
+    "color": ["Negro"],
+    "busqueda":["gorra","gorras", "cap","caps" ],
+    "precio": [30],
+    "imagen": "../../IMAGENES/accesorios/gorraMa.jpg",
+    "nuevaTemporada": true
+},
+{
+    
+    "id":33,
+    "seccion": "accesorios",
+    "categoria": "gorra",
+    "descripcion": "Cap Peace.",
+    "talla": ["S", "M", "L"],
+    "color": ["Negro"],
+    "busqueda":["gorra","gorras", "cap","caps" ],
+    "precio": [30],
+    "imagen": "../../IMAGENES/accesorios/gorraPI.jpg",
+    "nuevaTemporada": false
+},
+{
+    "id":34,
+    "seccion": "accesorios",
+    "categoria": "gorra",
+    "descripcion": "Cap Today.",
+    "talla": [ "L"],
+    "color": ["Verde"],
+    "busqueda":["gorra","gorras", "cap","caps" ],
+    "precio": [25],
+    "imagen": "../../IMAGENES/accesorios/gorraToday.jpg",
+    "nuevaTemporada": true
+},
+{
+    "id":35,
+   "seccion": "accesorios",
+    "categoria": "Tote-Bag",
+    "descripcion": "Safe the Reef.",
+    "talla": [ "L"],
+    "color": ["Blanco"],
+    "busqueda":["mochila","mochilas", "totebag","totebags" ],
+    "precio": [25],
+    "imagen": "../../IMAGENES/accesorios/toteStr.jpg",
+    "nuevaTemporada": true
+}
+,
+{
+    "id":36,
+    "seccion": "accesorios",
+    "categoria": "Tote-Bag",
+    "descripcion": "Tote Drifter.",
+    "talla": [ "L"],
+    "color": ["Crema"],
+    "busqueda":["mochila","mochilas", "totebag","totebags" ],
+    "precio": [25],
+    "imagen": "../../IMAGENES/accesorios/toteD.jpg",
+    "nuevaTemporada": true
+}
+
+]
+
+

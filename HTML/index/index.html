@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fvck Fast Fashion</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/@phosphor-icons/web"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="../../CSS/styles.css">
+  
+
+</head>
+<body>
+  <main class="bg-white relative overflow-hidden min-h-screen pt-24 sm:pt-32">
+    <header id="navbar" class="fixed top-0 left-0 w-full h-24 sm:h-32 flex items-center z-50 bg-white/80  backdrop-blur-md shadow-md border-b border-gray-200">
+      
+        <div class="container mx-auto px-6 flex items-center justify-between">
+            <div class="uppercase text-blue-900  font-black text-3xl">
+               <a href="index.html" >FVCK FAST FASHION</a>
+            </div>
+            <div class="flex items-center gap-6">
+                <nav class="font-sen text-gray-800  uppercase lg:flex items-center hidden space-x-6">
+                    <a href="/HTML/SeccionesRopa/nuevo.html" class="relative py-2 px-4 hover:text-gray-900  after:block after:h-[2px] after:w-full after:bg-black after:scale-x-0 after:transition-transform after:duration-300 hover:after:scale-x-100">new drop</a>
+                    <a href="/HTML/SeccionesRopa/hoodies.html" class="relative py-2 px-4 hover:text-gray-900  after:block after:h-[2px] after:w-full after:bg-black after:scale-x-0 after:transition-transform after:duration-300 hover:after:scale-x-100">Hoodies</a>
+                    <a href="/HTML/SeccionesRopa/jeans.html" class="relative py-2 px-4 hover:text-gray-900  after:block after:h-[2px] after:w-full after:bg-black  after:scale-x-0 after:transition-transform after:duration-300 hover:after:scale-x-100">jeans</a>
+                    <a href="/HTML/SeccionesRopa/remeras.html" class="relative py-2 px-4 hover:text-gray-900  after:block after:h-[2px] after:w-full after:bg-black after:scale-x-0 after:transition-transform after:duration-300 hover:after:scale-x-100">remeras</a>
+                    <a href="/HTML/SeccionesRopa/accesorios.html" class="relative py-2 px-4 hover:text-gray-900  after:block after:h-[2px] after:w-full after:bg-black after:scale-x-0 after:transition-transform after:duration-300 hover:after:scale-x-100">Accesorios</a>
+                </nav>       
+
+                <div class="relative hidden lg:block"> <input
+                  type="text"
+                  id="buscador"
+                  placeholder="Qué estás buscando?" class="w-48 lg:w-56 px-4 py-1.5 border border-gray-300 bg-white rounded-full text-sm focus:outline-none focus:ring-1 focus:ring-blue-500 placeholder-gray-400 pr-10"
+                  aria-label="Buscar" />
+              <div class="absolute inset-y-0 right-0 flex items-center pr-3 ">
+                <button id="btnBuscar" class="ph ph-magnifying-glass text-gray-400 text-lg"></button>
+                </div>
+          </div>
+          <a href="/HTML/usuarios_Carrito/carrito.html" class="relative text-gray-800 hover:text-black-600 hover:scale-110 transition-transform duration-200 ease-in-out">
+            <i class="ph ph-shopping-cart text-2xl"></i>
+            <span id="contador" class="absolute -top-1 -right-1 bg-black text-white text-[10px] font-bold w-5 h-5 text-center leading-5 rounded-full">  
+              0
+            </span> 
+          </a>
+                    
+                    <a href="/HTML/usuarios_Carrito/usuarios.html"  class="text-gray-800 hover:text-black-600 hover:scale-110 transition-transform duration-200 ease-in-out">
+                      <i class="ph ph-user text-2xl"></i>
+                    </a>
+                </div>
+              </div>
+                
+    </header>
+  <section class="justify-center items-center py-12 px-6 md:px-20 bg-gray-100 ">
+    <div class="flex pt-12 px-6 md:px-20  items-center justify-center bg-hero md:h-screen overflow-hidden">
+      <div class="flex flex-col  gap-6 md:flex-row items-center max-w-7xl bg-white  shadow-lg rounded-2xl overflow-hidden p-10 md:p-16">
+          <div class="w-full md:w-1/2 lg:pr-32">
+              <h2 class="text-4xl lg:text-5xl text-center md:text-left text-blue-900 leading-tight font-medium"> Season 2025 </h2>
+              <h3
+                  class="mt-6 md:mt-10 text-md lg:text-xl text-center md:text-left text-black-700 font-light tracking-wider leading-relaxed">
+                  La onda vintage volvió con todo y está rompiendo esquemas. En FVCK no hacemos ropa aburrida: mezclamos lo retro con lo moderno para que te vistas con actitud. Llevate lo que te haga destacar.
+              </h3>
+              <div class="mt-10 flex flex-col sm:flex-row justify-center md:justify-start">
+                 <a href="/HTML/SeccionesRopa/nuevo.html"> <button class="w-full sm:w-40 px-4 py-3 rounded font-semibold text-md bg-blue-500 text-white border-2 border-blue-500 transition hover:bg-blue-600">NEW DROP</button>
+                 </a>
+              </div>
+          </div>
+          <div class="w-full md:w-1/2 flex justify-center md:justify-end">
+              <img  src="../../IMAGENES/home/herosection.jpg" class="w-full h-full max-h-screen object-contein rounded-lg shadow-md ">
+          </div>
+      </div>
+  </div>
+</section>
+
+<section class="mt-16">
+  <div class=" max-w-full pl-16 pr-32">
+    <header class="mb-8 flex justify-between items-center w-full ">
+      <h2 class="text-blue-900 text-2xl font-bold tracking-wide">
+        Categorías Populares
+      </h2>
+      <div class="flex gap-2 self-end">
+        <button id="left" class="p-2 bg-gray-800 text-white 
+          rounded-full shadow-lg transition hover:scale-110">
+          <i class="ph ph-arrow-left text-lg"></i>
+        </button>
+        <button id="right" class="p-2 bg-gray-800 text-white rounded-full shadow-lg transition hover:scale-110">
+          <i class="ph ph-arrow-right text-lg"></i>
+        </button>
+      </div>
+    </header>
+    <div id="carouselContainer" class="relative">
+      <div id="carousel" class="flex overflow-x-auto gap-8 px-2 snap-x snap-mandatory scroll-smooth scrollbar-hide">
+          
+        <div class="flex-shrink-0 snap-center">
+          <a href="/HTML/SeccionesRopa/nuevo.html"><img class="mb-4 w-full max-w-[300px] object-cover rounded-xl shadow-md border border-gray-300  transition 
+            hover:scale-105" src="../../IMAGENES/home/new drop.png" alt="new_drop" ></a>
+        </div>
+        <div class="flex-shrink-0 snap-center">
+         <a href="/HTML/SeccionesRopa/remeras.html"> <img class="mb-4 w-full max-w-[300px] object-cover rounded-xl shadow-md border border-gray-300 transition 
+            hover:scale-105" src="../../IMAGENES/home/remeModel.jpg" alt="remeras"></a>
+        </div>
+        <div class="flex-shrink-0 snap-center">
+         <a href="/HTML/SeccionesRopa/hoodies.html"> <img class="mb-4 w-full max-w-[300px] object-coverrounded-xl shadow-md border border-gray-300 transition 
+            hover:scale-105" src="../../IMAGENES/home/homodel.png" alt="Hoodies">   </a>
+        </div>
+        <div class="flex-shrink-0 snap-center">
+          <a href="/HTML/SeccionesRopa/jeans.html"><img class="mb-4 w-full max-w-[300px] object-cover rounded-xl shadow-md border border-gray-300 transition 
+            hover:scale-105" src="../../IMAGENES/home/jeansmodel.png" alt="jeans" > </a>
+        </div>
+        <div class="flex-shrink-0 snap-center">
+          <a href="/HTML/SeccionesRopa/accesorios.html"><img class="mb-4 w-full max-w-[300px] object-cover rounded-xl shadow-md border border-gray-300 transition 
+            hover:scale-105" src="../../IMAGENES/home/accmodel.jpg" alt="Accesorios" ></a>
+        </div>
+      </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+<footer class="bg-gray-100  py-4 text-gray-800">
+  <div class="bg-inherit py-4 text-gray-400">
+    <div class="container pl-16 ">
+      <div class="-mx-4 flex flex-wrap justify-between">
+        <div class="px-4 my-4 w-full xl:w-1/5">
+        <a href="index.html"> <h2 class="text-blue-900 text-3xl font-bold mb-4">Fvck Fast Fashion</h2></a>
+          <p class="text-justify">
+            Moda con historia, estilo con personalidad. Acá encontrás prendas únicas que merecen una segunda vuelta. Lo vintage nunca pasa de moda.
+          </p>
+        </div>
+
+        <div class="px-4 my-4 w-full sm:w-auto">
+          <div>
+            <h2 class="inline-block text-2xl pb-4 mb-4 border-b-4 border-blue-600">Help</h2>
+          </div>
+          <ul class="leading-8">
+            <li><a href="#" class="hover:text-blue-400">Sobre Nosotros</a></li>
+            <li><a href="#"class="hover:text-blue-400">Terminos &amp; Condiciones</a></li>
+            <li><a href="#" class="hover:text-blue-400">Politicas de Privacidad</a></li>
+            <li><a href="#" class="hover:text-blue-400">Contactanos</a></li>
+          </ul>
+        </div>
+         
+
+        <div class="px-4 my-4 w-full sm:w-auto xl:w-1/5">
+          <div>
+            <h2 class="inline-block text-2xl pb-4 mb-4 border-b-4 border-blue-600">Connect With Us</h2>
+          </div>
+
+          <a href="https://www.instagram.com/julianseltenreich/" class="inline-flex items-center justify-center h-8 w-8 border border-gray-100 rounded-full mr-1 hover:text-blue-400 hover:border-blue-400">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+          <a href="https://wa.me/542914356748" target="_blank" class="inline-flex items-center justify-center h-8 w-8 border border-gray-100 rounded-full mr-1 hover:text-blue-400 hover:border-blue-400">
+                   <i class="fa-brands fa-whatsapp"></i>
+          </a>
+          <a href="https://github.com/julianseltenreich" class="inline-flex items-center justify-center h-8 w-8 border border-gray-100 rounded-full mr-1 hover:text-blue-400 hover:border-blue-400">
+            <i class="fa-brands fa-github"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/julianseltenreich/" class="inline-flex items-center justify-center h-8 w-8 border border-gray-100 rounded-full hover:text-blue-400 hover:border-blue-400">
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="bg-grey-700 py-4 text-white-100">
+    <div class="container mx-auto px-4">
+      <div class="-mx-4 flex flex-wrap justify-center">
+        <div class="px-4 w-full text-center sm:w-auto sm:text-left">
+                     creado por ©JulianSeltenreich 
+        </div>
+
+      </div>
+    </div>
+  </div>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script> 
+<script type="module" src="../../JS/app.js"></script>
+<script type="module" src="../../JS/avisos.js"></script>
+<script type="module" src="../../JS/carrusel.js"></script>
+</body>
+</html>

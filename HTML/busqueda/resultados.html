@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fvck Accesories</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="../../CSS/styles.css">
+  
+</head>
+<body>
+  <main class="bg-white relative overflow-hidden min-h-screen pt-24 sm:pt-32">
+    <header id="navbar" class="fixed top-0 left-0 w-full h-24 sm:h-32 flex items-center z-50 bg-white/80  backdrop-blur-md shadow-md border-b border-gray-200">
+      
+        <div class="container mx-auto px-6 flex items-center justify-between">
+            <div class="uppercase text-blue-900  font-black text-3xl">
+               <a href="/HTML/index/index.html" >FVCK FAST FASHION</a>
+            </div>
+            <nav class="font-sen text-gray-800  uppercase lg:flex items-center hidden space-x-6">
+              <a href="/HTML/SeccionesRopa/nuevo.html" class="relative py-2 px-4 hover:text-gray-900  after:block after:h-[2px] after:w-full after:bg-black after:scale-x-0 after:transition-transform after:duration-300 hover:after:scale-x-100">new drop</a>
+              <a href="/HTML/SeccionesRopa/hoodies.html" class="relative py-2 px-4 hover:text-gray-900  after:block after:h-[2px] after:w-full after:bg-black after:scale-x-0 after:transition-transform after:duration-300 hover:after:scale-x-100">Hoodies</a>
+              <a href="/HTML/SeccionesRopa/jeans.html" class="relative py-2 px-4 hover:text-gray-900  after:block after:h-[2px] after:w-full after:bg-black  after:scale-x-0 after:transition-transform after:duration-300 hover:after:scale-x-100">jeans</a>
+              <a href="/HTML/SeccionesRopa/remeras.html" class="relative py-2 px-4 hover:text-gray-900  after:block after:h-[2px] after:w-full after:bg-black after:scale-x-0 after:transition-transform after:duration-300 hover:after:scale-x-100">remeras</a>
+              <a href="/HTML/SeccionesRopa/accesorios.html" class="relative py-2 px-4 hover:text-gray-900  after:block after:h-[2px] after:w-full after:bg-black after:scale-x-0 after:transition-transform after:duration-300 hover:after:scale-x-100">Accesorios</a>
+          </nav>          
+ 
+
+          <div class="relative hidden lg:block"> <input
+            type="text"
+            id="buscador"
+            placeholder="Qué estás buscando?" class="w-48 lg:w-56 px-4 py-1.5 border border-gray-300 bg-white rounded-full text-sm focus:outline-none focus:ring-1 focus:ring-blue-500 placeholder-gray-400 pr-10"
+            aria-label="Buscar" />
+        <div class="absolute inset-y-0 right-0 flex items-center pr-3 ">
+          <button id="btnBuscar" class="ph ph-magnifying-glass text-gray-400 text-lg"></button>
+          </div>
+    </div>
+    
+    <a href="/HTML/usuarios_Carrito/carrito.html" class="relative text-gray-800 hover:text-black-600 hover:scale-110 transition-transform duration-200 ease-in-out">
+      <i class="ph ph-shopping-cart text-2xl"></i>
+      <span id="contador" class="absolute -top-1 -right-1 bg-black text-white text-[10px] font-bold w-5 h-5 text-center leading-5 rounded-full">  
+        0
+      </span> 
+    </a>
+      
+      <a href="/HTML/usuarios_Carrito/usuarios.html"  class="text-gray-800 hover:text-black-600 hover:scale-110 transition-transform duration-200 ease-in-out">
+        <i class="ph ph-user text-2xl"></i>
+      </a>
+      </header>
+        <h2 id="tituloResultados" class="text-3xl sm:text-4xl font-extrabold text-blue-900 mt-20 mb-8 ml-6 border-l-4 border-blue-500 pl-4">
+      </h2>
+      
+  <div id="resultados" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 px-6 py-10">
+  </div>
+  </main>
+
+  <footer class="bg-gray-100  py-4 text-gray-800">
+    <div class="bg-inherit py-4 text-gray-400">
+      <div class="container pl-16 ">
+        <div class="-mx-4 flex flex-wrap justify-between">
+          <div class="px-4 my-4 w-full xl:w-1/5">
+          <a href="index.html"> <h2 class="text-blue-900 text-3xl font-bold mb-4">Fvck Fast Fashion</h2></a>
+            <p class="text-justify">
+              Moda con historia, estilo con personalidad. Acá encontrás prendas únicas que merecen una segunda vuelta. Lo vintage nunca pasa de moda.
+            </p>
+          </div>
+  
+          <div class="px-4 my-4 w-full sm:w-auto">
+            <div>
+              <h2 class="inline-block text-2xl pb-4 mb-4 border-b-4 border-blue-600">Help</h2>
+            </div>
+            <ul class="leading-8">
+              <li><a href="#" class="hover:text-blue-400">Sobre Nosotros</a></li>
+              <li><a href="#"class="hover:text-blue-400">Terminos &amp; Condiciones</a></li>
+              <li><a href="#" class="hover:text-blue-400">Politicas de Privacidad</a></li>
+              <li><a href="#" class="hover:text-blue-400">Contactanos</a></li>
+            </ul>
+          </div>
+           
+  
+          <div class="px-4 my-4 w-full sm:w-auto xl:w-1/5">
+            <div>
+              <h2 class="inline-block text-2xl pb-4 mb-4 border-b-4 border-blue-600">Connect With Us</h2>
+            </div>
+  
+            <a href="https://www.instagram.com/julianseltenreich/" class="inline-flex items-center justify-center h-8 w-8 border border-gray-100 rounded-full mr-1 hover:text-blue-400 hover:border-blue-400">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="https://wa.me/542914356748" target="_blank" class="inline-flex items-center justify-center h-8 w-8 border border-gray-100 rounded-full mr-1 hover:text-blue-400 hover:border-blue-400">
+                     <i class="fa-brands fa-whatsapp"></i>
+            </a>
+            <a href="https://github.com/julianseltenreich" class="inline-flex items-center justify-center h-8 w-8 border border-gray-100 rounded-full mr-1 hover:text-blue-400 hover:border-blue-400">
+              <i class="fa-brands fa-github"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/julianseltenreich/" class="inline-flex items-center justify-center h-8 w-8 border border-gray-100 rounded-full hover:text-blue-400 hover:border-blue-400">
+              <i class="fa-brands fa-linkedin"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="bg-grey-700 py-4 text-white-100">
+      <div class="container mx-auto px-4">
+        <div class="-mx-4 flex flex-wrap justify-center">
+          <div class="px-4 w-full text-center sm:w-auto sm:text-left">
+                       creado por ©JulianSeltenreich 
+          </div>
+  
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script type="module" src="../../JS/app.js"></script>
+
+
+</body>
+</html>
